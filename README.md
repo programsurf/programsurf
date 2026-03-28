@@ -4,7 +4,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 
 ## Research Interests
 
-- Cryptographic Formal Verification
+- Formal Verification of Cryptographic Implementations
 - Cryptographic Performance Optimization (NTT, ARM NEON, AVX2)
 - Vulnerability Research & Responsible Disclosure
 - AI Model Supply Chain Security
