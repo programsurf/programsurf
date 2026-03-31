@@ -1,13 +1,13 @@
 # Sunwoo Lee
 
-Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptography · AI Supply Chain Security
+Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptography · AI agent Security
 
 ## Research Interests
 
-- Formal Verification of Cryptographic Implementations
-- Cryptographic Performance Optimization (NTT, ARM NEON, AVX2)
-- Vulnerability Research & Responsible Disclosure
-- AI Model Supply Chain Security
+- Formal Verification of Cryptographic Implementation
+- PQC Optimization
+- Responsible Disclosure
+- AI agent Security
 
 ## Security Contributions
 
