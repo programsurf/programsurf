@@ -11,6 +11,9 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 
 ## Security Contributions
 
+**CVE Discoveries**
+- [CVE-2026-34610](https://github.com/smuellerDD/leancrypto/security/advisories/GHSA-636g-jxv4-v4gr) — leancrypto X.509 integer truncation enabling CN identity impersonation (CVSS 5.9, CWE-681)
+
 **Patch Contributions**
 - [OpenSSL #30611](https://github.com/openssl/openssl/pull/30611) — Uninitialized QUIC connection IDs (CWE-457)
 - [OpenSSL #30612](https://github.com/openssl/openssl/pull/30612) — Channel memory leak on initial secret failure (CWE-401), backported to 3.3–4.0
