@@ -22,6 +22,9 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - [OpenSSL #30611](https://github.com/openssl/openssl/pull/30611) — Uninitialized QUIC connection IDs (CWE-457)
 - [OpenSSL #30612](https://github.com/openssl/openssl/pull/30612) — Channel memory leak on initial secret failure (CWE-401), backported to 3.3–4.0
 
+**Standards Contributions**
+- Reported κ counter width ambiguity in FIPS 204 (ML-DSA) to NIST pqc-comments (2026-03-31) — spec-compliant implementations independently reproduce nonce reuse due to unspecified integer width
+
 ## Selected Publications
 
 - "A Maturity Model for Crypto-Agility in Substation Automation Systems", ICAIIC 2026
