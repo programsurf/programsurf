@@ -13,6 +13,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 
 **CVE Discoveries**
 - [CVE-2026-34610](https://github.com/smuellerDD/leancrypto/security/advisories/GHSA-636g-jxv4-v4gr) — leancrypto X.509 integer truncation enabling CN identity impersonation (CVSS 5.9, CWE-681)
+- [CVE-2026-34981](https://github.com/pavelzbornik/whisperX-FastAPI/security/advisories/GHSA-6rc7-r867-c635) — whisperX-FastAPI SSRF via unvalidated URL fetch with extension bypass (CVSS Moderate, CWE-918)
 
 **Patch Contributions**
 - [OpenSSL #30611](https://github.com/openssl/openssl/pull/30611) — Uninitialized QUIC connection IDs (CWE-457)
