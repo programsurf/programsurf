@@ -36,11 +36,11 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - "Signed-Only Execution for Third-Party Pre-Trained Models in AI Platforms", IEEE BigData 2025
 - "Evaluating Post-Quantum Cryptography for Resource-Constrained AMI Gateways", IEEE CNS 2025
 
+## Honors
+- **NATO CCDCOE Locked Shields** — Technical Division (2022, 2023)  
+
 ## Contact
 
 [![Homepage](https://img.shields.io/badge/Homepage-sunwoo--lee-FF5722)](https://sites.google.com/view/sunwoo-lee)
 [![Email](https://img.shields.io/badge/Email-sunwoolee%40kentech.ac.kr-blue)](mailto:sunwoolee@kentech.ac.kr)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sunwoolee-0A66C2?logo=linkedin)](https://www.linkedin.com/in/sunwoo-lee-b2485b341?utm_source=share_via&utm_content=profile&utm_medium=member_android)
-
-## Honors
-- **NATO CCDCOE Locked Shields** — Technical Division (2022, 2023)
