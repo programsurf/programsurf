@@ -12,12 +12,12 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 ## Security Contributions
 
 **CVE Discoveries**
-- [CVE-2026-5264](https://github.com/wolfSSL/wolfssl) — wolfSSL DTLS 1.3 ACK heap buffer overflow (High, CWE-122)
-- [CVE-2026-5295](https://github.com/wolfSSL/wolfssl) — wolfSSL PKCS7 ORI OID stack buffer overflow (High, CWE-121)
-- [CVE-2026-5393](https://github.com/wolfSSL/wolfssl) — wolfSSL dual-algorithm CertificateVerify out-of-bounds read (Medium, CWE-125, Experimental; test credit)
-- [CVE-2026-5448](https://github.com/wolfSSL/wolfssl) — wolfSSL X.509 date buffer overflow in notAfter/notBefore compatibility API (Low, CWE-120)
-- [CVE-2026-5504](https://github.com/wolfSSL/wolfssl) — wolfSSL PKCS7 CBC padding oracle via unvalidated interior padding bytes (Medium, CWE-354)
-- [CVE-2026-5507](https://github.com/wolfSSL/wolfssl) — wolfSSL session cache arbitrary free via unvalidated deserialized pointer (Medium, CWE-761)
+- [CVE-2026-5264](https://www.cve.org/CVERecord?id=CVE-2026-5264) — wolfSSL DTLS 1.3 ACK heap buffer overflow (High, CWE-122)
+- [CVE-2026-5295](https://www.cve.org/CVERecord?id=CVE-2026-5295) — wolfSSL PKCS7 ORI OID stack buffer overflow (High, CWE-121)
+- [CVE-2026-5393](https://www.cve.org/CVERecord?id=CVE-2026-5393) — wolfSSL dual-algorithm CertificateVerify out-of-bounds read (Medium, CWE-125, Experimental; test credit)
+- [CVE-2026-5448](https://www.cve.org/CVERecord?id=CVE-2026-5448) — wolfSSL X.509 date buffer overflow in notAfter/notBefore compatibility API (Low, CWE-120)
+- [CVE-2026-5504](https://www.cve.org/CVERecord?id=CVE-2026-5504) — wolfSSL PKCS7 CBC padding oracle via unvalidated interior padding bytes (Medium, CWE-354)
+- [CVE-2026-5507](https://www.cve.org/CVERecord?id=CVE-2026-5507) — wolfSSL session cache arbitrary free via unvalidated deserialized pointer (Medium, CWE-761)
 - [CVE-2026-34610](https://github.com/smuellerDD/leancrypto/security/advisories/GHSA-636g-jxv4-v4gr) — leancrypto X.509 integer truncation enabling CN identity impersonation (CVSS 5.9, CWE-681)
 - [CVE-2026-34981](https://github.com/pavelzbornik/whisperX-FastAPI/security/advisories/GHSA-6rc7-r867-c635) — whisperX-FastAPI SSRF via unvalidated URL fetch with extension bypass (CVSS 5.8, CWE-918)
 - [CVE-2026-35483](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-85fx-vw25-4c95) — text-generation-webui path traversal in `load_template()` leaks .jinja/.yaml files (CVSS 5.3, CWE-22)
