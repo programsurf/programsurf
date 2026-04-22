@@ -12,6 +12,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 ## Security Contributions
 
 **CVE Discoveries**
+- [CVE-2026-5598](https://www.cve.org/CVERecord?id=CVE-2026-5598) — Bouncy Castle BC-JAVA FrodoKEM non-constant time comparison enabling private key leakage (High, CWE-385)
 - [CVE-2026-5264](https://www.cve.org/CVERecord?id=CVE-2026-5264) — wolfSSL DTLS 1.3 ACK heap buffer overflow (High, CWE-122)
 - [CVE-2026-5295](https://www.cve.org/CVERecord?id=CVE-2026-5295) — wolfSSL PKCS7 ORI OID stack buffer overflow (High, CWE-121)
 - [CVE-2026-5393](https://www.cve.org/CVERecord?id=CVE-2026-5393) — wolfSSL dual-algorithm CertificateVerify out-of-bounds read (Medium, CWE-125, Experimental; test credit)
