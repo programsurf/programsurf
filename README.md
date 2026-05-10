@@ -35,6 +35,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - [wolfSSL](https://github.com/wolfSSL/wolfssl/pull/10090) — DTLS fragment reassembly reads uninitialized heap contents
 - [wolfSSL](https://github.com/wolfSSL/wolfssl/pull/10103) — DTLS 1.3 word16 truncation on handshake send size
 - [wolfSSL](https://github.com/wolfSSL/wolfssl/pull/10131) — Missing hashLen sanity check in `wc_dilithium_verify_ctx_hash`
+- [Microsoft Z3 #9463](https://github.com/Z3Prover/z3/issues/9463) — `sat.smt=true` returns invalid models for BV comparator predicates; `smt.elim_unconstrained` abstracts comparators to fresh booleans and witness reconstruction satisfies each independently without joint consistency (soundness bug, regression since 4.13.0, confirmed by Z3's own `model_validate`)
 
 
 **Patch Contributions**
