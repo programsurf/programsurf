@@ -26,7 +26,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - [CVE-2026-35485](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-hqg5-487v-5mc6) — text-generation-webui path traversal in `load_grammar()` leaks arbitrary files (CVSS 7.5, CWE-22)
 - [CVE-2026-35486](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-jvrj-w5hq-6cp2) — text-generation-webui SSRF in superbooga RAG extensions enables cloud credential theft (CVSS 7.5, CWE-918)
 - [CVE-2026-35487](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-mfgg-vvc6-vqq7) — text-generation-webui path traversal in `load_prompt()` leaks arbitrary .txt files (CVSS 5.3, CWE-22)
-- CVE-2026-46556 — FlaskBB SSRF in get_image_info() via unrestricted avatar URL enabling cloud metadata access and internal port scanning (CVSS 6.5, CWE-918)
+- CVE-2026-46556(https://github.com/flaskbb/flaskbb/security/advisories/GHSA-xq32-9g7q-7297) — FlaskBB SSRF in get_image_info() via unrestricted avatar URL enabling cloud metadata access and internal port scanning (CVSS 6.5, CWE-918)
 
 **Bug Reports**
 - [Microsoft SymCrypt #55](https://github.com/microsoft/SymCrypt/issues/55) — ML-DSA UINT16 signing counter wrap causes nonce reuse (also reported upstream to [pq-crystals/dilithium #110](https://github.com/pq-crystals/dilithium/issues/110))
