@@ -49,6 +49,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 ## Selected Publications
 
 - "When Removing Reductions Goes Wrong: Auditing Reduction Placement in Production ML-DSA Implementations", Cryptology ePrint Archive 2026/1032 [[ePrint](https://eprint.iacr.org/2026/1032)]
+- "When API Keys Leak: Securing AI Services with Post-Quantum Proof-of-Possession", ICAIIC 2026
 - "A Maturity Model for Crypto-Agility in Substation Automation Systems", ICAIIC 2026
 - "Signed-Only Execution for Third-Party Pre-Trained Models in AI Platforms", IEEE BigData 2025 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11401569)]
 - "Evaluating Post-Quantum Cryptography for Resource-Constrained AMI Gateways", IEEE CNS 2025 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11194968)]
