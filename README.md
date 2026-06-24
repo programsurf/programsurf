@@ -34,6 +34,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - [CVE-2026-35485](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-hqg5-487v-5mc6) — text-generation-webui path traversal in `load_grammar()` leaks arbitrary files (CVSS 7.5, CWE-22)
 - [CVE-2026-35486](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-jvrj-w5hq-6cp2) — text-generation-webui SSRF in superbooga RAG extensions enables cloud credential theft (CVSS 7.5, CWE-918)
 - [CVE-2026-35487](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-mfgg-vvc6-vqq7) — text-generation-webui path traversal in `load_prompt()` leaks arbitrary .txt files (CVSS 5.3, CWE-22)
+- CVE-2026-56823 — AutoGPT Platform IDOR in webhook ping endpoint allows cross-user webhook enumeration, OAuth provider type leakage, and unauthorized ping triggering due to missing ownership verification (CVSS 4.6, CWE-284/CWE-639)
 
 
 *Web Applications & Tooling*
