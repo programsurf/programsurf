@@ -11,7 +11,6 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - AI agent Security
 
 
-```markdown
 ## Security Contributions
 
 **CVE Discoveries**
@@ -88,7 +87,6 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - ![NIST](https://img.shields.io/badge/NIST-FIPS%20204-e5e7eb?style=flat&labelColor=f8fafc)
   ![ML-DSA](https://img.shields.io/badge/ML--DSA-%CE%BA%20counter-e5e7eb?style=flat&labelColor=f8fafc)
   — Reported κ counter width ambiguity in FIPS 204 to NIST `pqc-comments` on 2026-03-31
-```
 
 
 ## Selected Publications
