@@ -2,14 +2,12 @@
 
 Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptography · AI agent Security
 
-
 ## Research Interests
 
-- Formal Verification of Cryptographic Implementation
-- PQC Optimization
-- Responsible Disclosure
-- AI agent Security
-
+* Formal Verification of Cryptographic Implementation
+* PQC Optimization
+* Responsible Disclosure
+* AI agent Security
 
 ## Security Contributions
 
@@ -17,93 +15,67 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 
 *Cryptographic Libraries*
 
-- [![CVE-2026-42764](https://img.shields.io/badge/CVE--2026--42764-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-42764) — OpenSSL NULL pointer dereference in QUIC server initial packet handling (invalid/expired token), reachable when address validation is disabled via `SSL_LISTENER_FLAG_NO_VALIDATE` (Moderate, CWE-476)
-- [![CVE-2026-5264](https://img.shields.io/badge/CVE--2026--5264-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5264) — wolfSSL DTLS 1.3 ACK heap buffer overflow (High, CWE-122)
-- [![CVE-2026-5295](https://img.shields.io/badge/CVE--2026--5295-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5295) — wolfSSL PKCS7 ORI OID stack buffer overflow (High, CWE-121)
-- [![CVE-2026-5393](https://img.shields.io/badge/CVE--2026--5393-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5393) — wolfSSL dual-algorithm CertificateVerify out-of-bounds read (Medium, CWE-125, Experimental; test credit)
-- [![CVE-2026-5448](https://img.shields.io/badge/CVE--2026--5448-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5448) — wolfSSL X.509 date buffer overflow in notAfter/notBefore compatibility API (Low, CWE-120)
-- [![CVE-2026-5504](https://img.shields.io/badge/CVE--2026--5504-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5504) — wolfSSL PKCS7 CBC padding oracle via unvalidated interior padding bytes (Medium, CWE-354)
-- [![CVE-2026-5507](https://img.shields.io/badge/CVE--2026--5507-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5507) — wolfSSL session cache arbitrary free via unvalidated deserialized pointer (Medium, CWE-761)
-- [![CVE-2026-34610](https://img.shields.io/badge/CVE--2026--34610-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/smuellerDD/leancrypto/security/advisories/GHSA-636g-jxv4-v4gr) — leancrypto X.509 CN length truncation enables certificate identity impersonation (CVSS 5.9, CWE-681)
-- [![CVE-2026-5598](https://img.shields.io/badge/CVE--2026--5598-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-5598) — Bouncy Castle BC-JAVA FrodoKEM non-constant time comparison enabling private key leakage (High, CWE-385)
+* [CVE-2026-42764](https://www.cve.org/CVERecord?id=CVE-2026-42764) — OpenSSL NULL pointer dereference in QUIC server initial packet handling (invalid/expired token), reachable when address validation is disabled via `SSL_LISTENER_FLAG_NO_VALIDATE` (Moderate, CWE-476)
+* [CVE-2026-5264](https://www.cve.org/CVERecord?id=CVE-2026-5264) — wolfSSL DTLS 1.3 ACK heap buffer overflow (High, CWE-122)
+* [CVE-2026-5295](https://www.cve.org/CVERecord?id=CVE-2026-5295) — wolfSSL PKCS7 ORI OID stack buffer overflow (High, CWE-121)
+* [CVE-2026-5393](https://www.cve.org/CVERecord?id=CVE-2026-5393) — wolfSSL dual-algorithm CertificateVerify out-of-bounds read (Medium, CWE-125, Experimental; test credit)
+* [CVE-2026-5448](https://www.cve.org/CVERecord?id=CVE-2026-5448) — wolfSSL X.509 date buffer overflow in notAfter/notBefore compatibility API (Low, CWE-120)
+* [CVE-2026-5504](https://www.cve.org/CVERecord?id=CVE-2026-5504) — wolfSSL PKCS7 CBC padding oracle via unvalidated interior padding bytes (Medium, CWE-354)
+* [CVE-2026-5507](https://www.cve.org/CVERecord?id=CVE-2026-5507) — wolfSSL session cache arbitrary free via unvalidated deserialized pointer (Medium, CWE-761)
+* [CVE-2026-34610](https://github.com/smuellerDD/leancrypto/security/advisories/GHSA-636g-jxv4-v4gr) — leancrypto X.509 CN length truncation enables certificate identity impersonation (CVSS 5.9, CWE-681)
+* [CVE-2026-5598](https://www.cve.org/CVERecord?id=CVE-2026-5598) — Bouncy Castle BC-JAVA FrodoKEM non-constant time comparison enabling private key leakage (High, CWE-385)
 
 *AI / ML Frameworks*
 
-- [![CVE-2026-34981](https://img.shields.io/badge/CVE--2026--34981-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/pavelzbornik/whisperX-FastAPI/security/advisories/GHSA-6rc7-r867-c635) — whisperX-FastAPI SSRF via unvalidated URL fetch with extension bypass (CVSS 5.8, CWE-918)
-- [![CVE-2026-35483](https://img.shields.io/badge/CVE--2026--35483-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-85fx-vw25-4c95) — text-generation-webui path traversal in `load_template()` leaks .jinja/.yaml files (CVSS 5.3, CWE-22)
-- [![CVE-2026-35484](https://img.shields.io/badge/CVE--2026--35484-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-w3cv-4447-5hf5) — text-generation-webui path traversal in `load_preset()` leaks arbitrary .yaml files (CVSS 5.3, CWE-22)
-- [![CVE-2026-35485](https://img.shields.io/badge/CVE--2026--35485-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-hqg5-487v-5mc6) — text-generation-webui path traversal in `load_grammar()` leaks arbitrary files (CVSS 7.5, CWE-22)
-- [![CVE-2026-35486](https://img.shields.io/badge/CVE--2026--35486-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-jvrj-w5hq-6cp2) — text-generation-webui SSRF in superbooga RAG extensions enables cloud credential theft (CVSS 7.5, CWE-918)
-- [![CVE-2026-35487](https://img.shields.io/badge/CVE--2026--35487-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-mfgg-vvc6-vqq7) — text-generation-webui path traversal in `load_prompt()` leaks arbitrary .txt files (CVSS 5.3, CWE-22)
-- [![CVE-2026-56823](https://img.shields.io/badge/CVE--2026--56823-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/Significant-Gravitas/AutoGPT/security/advisories/GHSA-rq9m-xvc7-v9h6) — AutoGPT Platform IDOR in webhook ping endpoint allows cross-user webhook enumeration, OAuth provider type leakage, and unauthorized ping triggering due to missing ownership verification (CVSS 4.6, CWE-284/CWE-639)
+* [CVE-2026-34981](https://github.com/pavelzbornik/whisperX-FastAPI/security/advisories/GHSA-6rc7-r867-c635) — whisperX-FastAPI SSRF via unvalidated URL fetch with extension bypass (CVSS 5.8, CWE-918)
+* [CVE-2026-35483](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-85fx-vw25-4c95) — text-generation-webui path traversal in `load_template()` leaks .jinja/.yaml files (CVSS 5.3, CWE-22)
+* [CVE-2026-35484](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-w3cv-4447-5hf5) — text-generation-webui path traversal in `load_preset()` leaks arbitrary .yaml files (CVSS 5.3, CWE-22)
+* [CVE-2026-35485](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-hqg5-487v-5mc6) — text-generation-webui path traversal in `load_grammar()` leaks arbitrary files (CVSS 7.5, CWE-22)
+* [CVE-2026-35486](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-jvrj-w5hq-6cp2) — text-generation-webui SSRF in superbooga RAG extensions enables cloud credential theft (CVSS 7.5, CWE-918)
+* [CVE-2026-35487](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-mfgg-vvc6-vqq7) — text-generation-webui path traversal in `load_prompt()` leaks arbitrary .txt files (CVSS 5.3, CWE-22)
+* [CVE-2026-56823](https://github.com/Significant-Gravitas/AutoGPT/security/advisories/GHSA-rq9m-xvc7-v9h6) — AutoGPT Platform IDOR in webhook ping endpoint allows cross-user webhook enumeration, OAuth provider type leakage, and unauthorized ping triggering due to missing ownership verification (CVSS 4.6, CWE-284/CWE-639)
 
 *Web Applications & Tooling*
 
-- [![CVE-2026-48819](https://img.shields.io/badge/CVE--2026--48819-e5e7eb?style=flat&labelColor=f8fafc)](https://www.cve.org/CVERecord?id=CVE-2026-48819) — @hey-api/openapi-ts prototype chain substitution in `buildClientParams` template via crafted `$query___proto__` slot key (Moderate, CWE-1321)
-- [![CVE-2026-46556](https://img.shields.io/badge/CVE--2026--46556-e5e7eb?style=flat&labelColor=f8fafc)](https://github.com/flaskbb/flaskbb/security/advisories/GHSA-xq32-9g7q-7297) — FlaskBB SSRF in `get_image_info()` via unrestricted avatar URL enabling cloud metadata access and internal port scanning (CVSS 6.5, CWE-918)
-
+* [CVE-2026-48819](https://www.cve.org/CVERecord?id=CVE-2026-48819) — @hey-api/openapi-ts prototype chain substitution in `buildClientParams` template via crafted `$query___proto__` slot key (Moderate, CWE-1321)
+* [CVE-2026-46556](https://github.com/flaskbb/flaskbb/security/advisories/GHSA-xq32-9g7q-7297) — FlaskBB SSRF in `get_image_info()` via unrestricted avatar URL enabling cloud metadata access and internal port scanning (CVSS 6.5, CWE-918)
 
 **Bug Reports**
 
-- [![SymCrypt #55](https://img.shields.io/badge/SymCrypt-%2355-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/microsoft/SymCrypt/issues/55)
-  [![Dilithium #110](https://img.shields.io/badge/dilithium-%23110-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/pq-crystals/dilithium/issues/110)
-  — Microsoft SymCrypt ML-DSA `UINT16` signing counter wrap causes nonce reuse
-
-- ![wolfSSL](https://img.shields.io/badge/wolfSSL-reported-e5e7eb?style=flat&labelColor=f8fafc)
-  — LMS `wc_LmsKey_Sign` insufficient buffer size and missing callback validation
-
-- ![wolfSSL](https://img.shields.io/badge/wolfSSL-reported-e5e7eb?style=flat&labelColor=f8fafc)
-  — Negative ASN.1 integer overflow in CRL number field decoding
-
-- ![wolfSSL](https://img.shields.io/badge/wolfSSL-reported-e5e7eb?style=flat&labelColor=f8fafc)
-  — RSA exponent stack buffer overflow in `wolfSSL_EVP_PKEY_print_public`
-
-- ![wolfSSL](https://img.shields.io/badge/wolfSSL-reported-e5e7eb?style=flat&labelColor=f8fafc)
-  — DTLS fragment reassembly reads uninitialized heap contents
-
-- ![wolfSSL](https://img.shields.io/badge/wolfSSL-reported-e5e7eb?style=flat&labelColor=f8fafc)
-  — DTLS 1.3 `word16` truncation on handshake send size
-
-- ![wolfSSL](https://img.shields.io/badge/wolfSSL-reported-e5e7eb?style=flat&labelColor=f8fafc)
-  — Missing `hashLen` sanity check in `wc_dilithium_verify_ctx_hash`
-
-- [![Z3 #9463](https://img.shields.io/badge/Z3-%239463-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/Z3Prover/z3/issues/9463)
-  — `sat.smt=true` returns invalid models for BV comparator predicates; `smt.elim_unconstrained` abstracts comparators to fresh booleans and witness reconstruction satisfies each independently without joint consistency
-
-- [![liboqs #2392](https://img.shields.io/badge/liboqs-%232392-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/open-quantum-safe/liboqs/issues/2392)
-  [![MAYO-C #10](https://img.shields.io/badge/MAYO--C-%2310-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/PQCMayo/MAYO-C/issues/10)
-  — MAYO `mayo_sign_signature` returns `MAYO_OK` after 256-attempt rejection sampling exhaustion, assembling signature from invalid solution buffer
+* [Microsoft SymCrypt #55](https://github.com/microsoft/SymCrypt/issues/55) — ML-DSA `UINT16` signing counter wrap causes nonce reuse; also reported upstream to [pq-crystals/dilithium #110](https://github.com/pq-crystals/dilithium/issues/110)
+* [wolfSSL #10084](https://github.com/wolfSSL/wolfssl/pull/10084) — LMS `wc_LmsKey_Sign` insufficient buffer size and missing callback validation
+* [wolfSSL #10087](https://github.com/wolfSSL/wolfssl/pull/10087) — Negative ASN.1 integer overflow in CRL number field decoding
+* [wolfSSL #10088](https://github.com/wolfSSL/wolfssl/pull/10088) — RSA exponent stack buffer overflow in `wolfSSL_EVP_PKEY_print_public`
+* [wolfSSL #10090](https://github.com/wolfSSL/wolfssl/pull/10090) — DTLS fragment reassembly reads uninitialized heap contents
+* [wolfSSL #10103](https://github.com/wolfSSL/wolfssl/pull/10103) — DTLS 1.3 `word16` truncation on handshake send size
+* [wolfSSL #10131](https://github.com/wolfSSL/wolfssl/pull/10131) — Missing `hashLen` sanity check in `wc_dilithium_verify_ctx_hash`
+* [Microsoft Z3 #9463](https://github.com/Z3Prover/z3/issues/9463) — `sat.smt=true` returns invalid models for BV comparator predicates; `smt.elim_unconstrained` abstracts comparators to fresh booleans and witness reconstruction satisfies each independently without joint consistency (soundness bug, regression since 4.13.0, confirmed by Z3's own `model_validate`)
+* [liboqs #2392](https://github.com/open-quantum-safe/liboqs/issues/2392) — MAYO `mayo_sign_signature` returns `MAYO_OK` after 256-attempt rejection sampling exhaustion, assembling signature from invalid solution buffer (all 12 MAYO variants; fix in liboqs 0.16.0, also upstream in [PQCMayo/MAYO-C #10](https://github.com/PQCMayo/MAYO-C/pull/10))
 
 **Patch Contributions**
 
-- [![OpenSSL #30611](https://img.shields.io/badge/OpenSSL-%2330611-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/openssl/openssl/pull/30611)
-  — Uninitialized QUIC connection IDs (CWE-457)
-
-- [![OpenSSL #30612](https://img.shields.io/badge/OpenSSL-%2330612-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/openssl/openssl/pull/30612)
-  — Channel memory leak on initial secret failure (CWE-401), backported to 3.3–4.0
+* [OpenSSL #30611](https://github.com/openssl/openssl/pull/30611) — Uninitialized QUIC connection IDs (CWE-457)
+* [OpenSSL #30612](https://github.com/openssl/openssl/pull/30612) — Channel memory leak on initial secret failure (CWE-401), backported to 3.3–4.0
 
 **Test Vector Contributions**
 
-- [C2SP/Wycheproof PR #255](https://github.com/C2SP/wycheproof/pull/255)
-  — Added ML-DSA-87 verification vectors to C2SP/Wycheproof for a missing required modular reduction in the NTT verification path. The merged vectors distinguish conforming verifiers from affected implementations by triggering wrong acceptance of forgeries or wrong rejection of valid signatures.
+* [C2SP/Wycheproof PR #255](https://github.com/C2SP/wycheproof/pull/255) — Added ML-DSA-87 verification vectors to C2SP/Wycheproof for a missing required modular reduction in the NTT verification path. The merged vectors distinguish conforming verifiers from affected implementations by triggering wrong acceptance of forgeries or wrong rejection of valid signatures.
 
 **Standards Contributions**
 
-- ![NIST](https://img.shields.io/badge/NIST-FIPS%20204-e5e7eb?style=flat&labelColor=f8fafc)
-  ![ML-DSA](https://img.shields.io/badge/ML--DSA-%CE%BA%20counter-e5e7eb?style=flat&labelColor=f8fafc)
-  — Reported κ counter width ambiguity in FIPS 204 to NIST `pqc-comments` on 2026-03-31
-
+* [NIST FIPS 204](https://csrc.nist.gov/pubs/fips/204/final) / ML-DSA κ counter — Reported κ counter width ambiguity to NIST `pqc-comments` on 2026-03-31; spec-compliant implementations independently reproduce nonce reuse due to unspecified integer width
 
 ## Selected Publications
 
-- "When Removing Reductions Goes Wrong: Auditing Reduction Placement in Production ML-DSA Implementations", Cryptology ePrint Archive 2026/1032 [[ePrint](https://eprint.iacr.org/2026/1032)]
-- "When API Keys Leak: Securing AI Services with Post-Quantum Proof-of-Possession", ICAIIC 2026 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11454376)]
-- "A Maturity Model for Crypto-Agility in Substation Automation Systems", ICAIIC 2026 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11454308)]
-- "Signed-Only Execution for Third-Party Pre-Trained Models in AI Platforms", IEEE BigData 2025 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11401569)]
-- "Evaluating Post-Quantum Cryptography for Resource-Constrained AMI Gateways", IEEE CNS 2025 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11194968)]
+* "When Removing Reductions Goes Wrong: Auditing Reduction Placement in Production ML-DSA Implementations", Cryptology ePrint Archive 2026/1032 [[ePrint](https://eprint.iacr.org/2026/1032)]
+* "When API Keys Leak: Securing AI Services with Post-Quantum Proof-of-Possession", ICAIIC 2026 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11454376)]
+* "A Maturity Model for Crypto-Agility in Substation Automation Systems", ICAIIC 2026 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11454308)]
+* "Signed-Only Execution for Third-Party Pre-Trained Models in AI Platforms", IEEE BigData 2025 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11401569)]
+* "Evaluating Post-Quantum Cryptography for Resource-Constrained AMI Gateways", IEEE CNS 2025 [[IEEE Xplore](https://ieeexplore.ieee.org/document/11194968)]
 
 ## Honors
-- **NATO CCDCOE Locked Shields** — Technical Division (2022, 2023)  
+
+* **NATO CCDCOE Locked Shields** — Technical Division (2022, 2023)
 
 ## Contact
 
