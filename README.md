@@ -82,6 +82,11 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 - [![OpenSSL #30612](https://img.shields.io/badge/OpenSSL-%2330612-e5e7eb?style=flat&labelColor=f8fafc&logo=github&logoColor=64748b)](https://github.com/openssl/openssl/pull/30612)
   — Channel memory leak on initial secret failure (CWE-401), backported to 3.3–4.0
 
+**Test Vector Contributions**
+
+- [C2SP/Wycheproof PR #255](https://github.com/C2SP/wycheproof/pull/255)
+  — Added ML-DSA-87 verification vectors to C2SP/Wycheproof for a missing required modular reduction in the NTT verification path. The merged vectors distinguish conforming verifiers from affected implementations by triggering wrong acceptance of forgeries or wrong rejection of valid signatures.
+
 **Standards Contributions**
 
 - ![NIST](https://img.shields.io/badge/NIST-FIPS%20204-e5e7eb?style=flat&labelColor=f8fafc)
