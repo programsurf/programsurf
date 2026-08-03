@@ -27,6 +27,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 
 *AI / ML Frameworks*
 
+* [CVE-2026-10134](https://www.ibm.com/support/pages/node/7277559) — Langflow OSS unauthenticated server-side RCE via attacker-controlled `PythonCodeStructuredTool.tool_code` executed with `exec()` in public flow builds (CVSS 10.0, CWE-94)
 * [CVE-2026-34981](https://github.com/pavelzbornik/whisperX-FastAPI/security/advisories/GHSA-6rc7-r867-c635) — whisperX-FastAPI SSRF via unvalidated URL fetch with extension bypass (CVSS 5.8, CWE-918)
 * [CVE-2026-35483](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-85fx-vw25-4c95) — text-generation-webui path traversal in `load_template()` leaks .jinja/.yaml files (CVSS 5.3, CWE-22)
 * [CVE-2026-35484](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-w3cv-4447-5hf5) — text-generation-webui path traversal in `load_preset()` leaks arbitrary .yaml files (CVSS 5.3, CWE-22)
