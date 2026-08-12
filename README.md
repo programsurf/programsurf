@@ -36,6 +36,7 @@ Ph.D. Researcher @ [KENTECH](https://www.kentech.ac.kr/) · Post-Quantum Cryptog
 * [CVE-2026-35486](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-jvrj-w5hq-6cp2) — text-generation-webui SSRF in superbooga RAG extensions enables cloud credential theft (CVSS 7.5, CWE-918)
 * [CVE-2026-35487](https://github.com/oobabooga/text-generation-webui/security/advisories/GHSA-mfgg-vvc6-vqq7) — text-generation-webui path traversal in `load_prompt()` leaks arbitrary .txt files (CVSS 5.3, CWE-22)
 * [CVE-2026-56823](https://github.com/Significant-Gravitas/AutoGPT/security/advisories/GHSA-rq9m-xvc7-v9h6) — AutoGPT Platform IDOR in webhook ping endpoint allows cross-user webhook enumeration, OAuth provider type leakage, and unauthorized ping triggering due to missing ownership verification (CVSS 4.6, CWE-284/CWE-639)
+* [CVE-2025-62615](https://github.com/Significant-Gravitas/AutoGPT/security/advisories/GHSA-r55v-q5pc-j57f) — AutoGPT Platform SSRF in ReadRSSFeedBlock allows authenticated users to access internal-network and cloud metadata endpoints because urllib.request.urlopen bypasses the platform’s SSRF-safe Requests wrapper (Critical, CWE-918)
 
 *Web Applications & Tooling*
 
